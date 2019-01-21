@@ -4,12 +4,14 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {NgRedux,NgReduxModule} from '@angular-redux/store'
 import { AppComponent } from './app.component';
 import {IAppState,rootReducer,INITIAL_STATE} from './store';
-import { NavbarComponent } from './navbar/navbar.component'
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProductComponent } from './product/product.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,AngularFontAwesomeModule,NgReduxModule
